@@ -330,6 +330,13 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     background: url(../../docs/fotos/IMG_7811.JPG);
     background-position: center;
 }
+#foto599x536{
+    background-size: cover;
+    width: 599px;
+    height: 536px;
+    background: url(../../docs/fotos/IMG_7811.JPG);
+    background-position: center;
+}
 
 .hero-content h4 {
     color: #4baf47;

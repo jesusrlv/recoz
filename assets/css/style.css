@@ -47,10 +47,11 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Echofy Top Header Area Css-->
 ==================================---*/
 .top-header-area {
-    padding: 11px 0;
+    padding: 0 0;
     border-bottom: 1px solid #49ae4436;
     z-index: 9;
     position: relative;
+    background-color: rgba(73, 175, 69, 0.1);
 }
 
 .top-header-info ul li {
@@ -296,7 +297,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
    <!--Echofy Hero Area Css-->
 ==================================---*/
 .hero-area {
-    background: url(../../docs/fotos/IMG_20240829_131345_2.jpg);
+    background: url(../../docs/fotos/IMG_2540.JPG);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -313,8 +314,22 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     background-size: cover;
     width: 600px;
     height: 650px;
-    background: url(../../docs/fotos/IMG_7726.JPG);
-    background-position: center;
+    background: url(../../docs/fotos/IMG_7667.JPG);
+    background-position: center top;
+}
+#foto600x650_2{
+    background-size: cover;
+    width: 600px;
+    height: 650px;
+    background: url(../../docs/fotos/IMG_7469.JPG);
+    background-position: center center;
+}
+#foto600x650_3{
+    background-size: cover;
+    width: 600px;
+    height: 650px;
+    background: url(../../docs/fotos/IMG_9300.JPG);
+    background-position: center center;
 }
 #foto350x210{
     background-size: cover;
@@ -680,7 +695,7 @@ img.about-thumb-shape {
 }
 
 .single-about-box:nth-child(3) {
-    border-bottom: 1px solid #61616133;
+    /* border-bottom: 1px solid #61616133; */
     padding-bottom: 31px;
     margin-bottom: 3px;
 }
@@ -1860,7 +1875,7 @@ transform: rotate(360deg);
    <!--Echofy Footer Area-->
 ==================================---*/
 .footer-area {
-    background: url(../images/home1/footer-bg.jpg);
+    background: url(../../docs/fotos/IMG_7726.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 125px 0 0px;

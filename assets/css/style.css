@@ -653,8 +653,39 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 124px 0 125px;
+    padding: 25px 0 25px;
 }
+
+/* Pantallas pequeñas (>=576px) */
+@media (max-width: 576px) {
+    .about-area {
+        padding: 25px 0 25px;
+    }
+    #foto600x650{
+        width: 100%;
+        height: 300px;
+        background-position: 70% 10%;
+    }
+    #imagenLogo2{
+        width: 45%;
+    }
+
+    #foto600x650_2{
+        width: 100%;
+        height: 300px;
+        background-position: center 25%;
+    }
+
+    #foto600x650_3{
+        width: 100%;
+        height: 300px;
+        background-position: 40% 30%;
+    }
+    #logoPortada{
+        background-color: rgba(73, 175, 69,0.7);
+    }
+
+  }
 
 .about-thumb {
     position: relative;
@@ -1408,8 +1439,8 @@ a.project-button:hover i{
 ==================================---*/
 .process-area-two {
     background: #F6F6EE;
-    padding: 192px 0 93px;
-    margin-top: -80px;
+    padding: 152px 0 93px;
+    margin-top: -180px;
 }
 
 .process-area-two .section-title.center {

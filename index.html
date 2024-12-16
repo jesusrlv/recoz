@@ -101,16 +101,16 @@
 			<div class="col-lg-9">
 				<div class="header-menu">
 					<ul>
-						<li class="menu-item-has-children"><a href="#">Inicio<i class="fas fa-chevron-down"></i></a>
+						<li class="menu-item-has-children"><a href="#inicio">Inicio<i class="fas fa-chevron-down"></i></a>
 						</li>
-						<li><a href="about.html">Nuestros servicios</a></li>
-						<li class="menu-item-has-children"><a href="#">Misión - Visión<i class="fas fa-chevron-down"></i></a>
-						</li>
-						<li><a href="contact.html">Contacto</a></li>
+						<li><a href="#servicios">Nuestros servicios</a></li>
+						<!-- <li class="menu-item-has-children"><a href="#mision">Misión - Visión<i class="fas fa-chevron-down"></i></a>
+						</li> -->
+						<!-- <li><a href="#contacto">Contacto</a></li> -->
 					</ul>
 					
 					<div class="header-button">
-						<a href="contact.html">Contacto</a>
+						<a href="#contacto">Contacto</a>
 					</div>
 				</div>
 			</div>
@@ -131,15 +131,15 @@
 	<div class="mobile-menu">
 		<nav class="header-menu">
 			<ul class="nav_scroll">
-				<li class="menu-item-has-children"><a href="#">Inicio</a>
+				<li class="menu-item-has-children"><a href="#inicio">Inicio</a>
                    
 				</li>
-				<li><a href="about.html">Nuestros servicios</a></li>
-				<li class="menu-item-has-children"><a href="#">Misión - Visión</a>
+				<li><a href="#servicios">Nuestros servicios</a></li>
+				<!-- <li class="menu-item-has-children"><a href="#mision">Misión - Visión</a>
                    
-				</li>
+				</li> -->
 				
-				<li><a href="contact.html">Contacto</a></li>
+				<li><a href="#contacto">Contacto</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -154,6 +154,7 @@
 <!--==================================================-->
 <!-- Start Echofy Hero Area -->
 <!--==================================================-->
+<span id="inicio"></span>
 <div class="hero-slides owl-carousel">	
 	<div class="hero-area d-flex align-items-center">
 		<div class="container">
@@ -253,6 +254,7 @@
 <!--==================================================-->
 <!-- Strat Echofy About Area -->
 <!--==================================================-->
+<span id="servicios"></span>
 <div class="about-area">
 	<div class="container">
 		<div class="row align-items-center">
@@ -733,6 +735,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Blog Area-->
 <!--==================================================-->
+<span id="contacto"></span>
 <div class="blog-area">
 	<div class="container">
 		<div class="row">
@@ -755,6 +758,7 @@
 					<!-- <div class="single-blog-thumb">
 						<img src="assets/images/home1/blog-1.jpg" alt="">
 					</div> -->
+				
 					<div class="blog-content">
 						<a href="blog-details.html">Datos de contacto</a>
 						<p>Llena todos los campos</p>
@@ -795,6 +799,7 @@
 <!--==================================================-->
 <!-- Strat Echofy Footer Area-->
 <!--==================================================-->
+
 <div class="footer-area">
 	<div class="container">
 		<div class="row">
@@ -976,5 +981,18 @@
 	<script src="assets/js/silik-slider.js"></script>
 
 	<script src="js/mail.js"></script>
+
+	<script>
+        $("a[href^='#']").click(function(e) {
+            e.preventDefault();
+            
+            var position = $($(this).attr("href")).offset().top;
+        
+            $("body, html").animate({
+                scrollTop: position
+            } /* speed */ );
+        });
+	</script>
+
 </body>
 </html>
